@@ -1,0 +1,50 @@
+[
+  {
+    "file": "weed-empire-icon.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/e4/80/45e4800e-7f7d-ae65-f580-ac4e32beb4bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "app": "Weed Empire: Business Strategy",
+    "store": "https://apps.apple.com/us/app/weed-empire-business-strategy/id6479363149?uo=4"
+  },
+  {
+    "file": "weed-empire-screen.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b4/34/3a/b4343a52-94e4-f1bb-6d0f-8ee2c4a99c43/screen_001-1.png/320x480bb.jpg",
+    "app": "Weed Empire: Business Strategy",
+    "store": "https://apps.apple.com/us/app/weed-empire-business-strategy/id6479363149?uo=4"
+  },
+  {
+    "file": "world-war-armies-icon.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/80/11/f58011f4-668d-9e3f-fb90-4b2ea25dd9f0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "app": "World War Armies: RTS Game",
+    "store": "https://apps.apple.com/us/app/world-war-armies-rts-game/id1506931934?uo=4"
+  },
+  {
+    "file": "world-war-armies-screen.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/cd/fa/8bcdfa04-cb49-36c9-88ba-cdd6991c5c4a/iPhone_5.5_screen01_202212_1920x1080.png/406x228bb.png",
+    "app": "World War Armies: RTS Game",
+    "store": "https://apps.apple.com/us/app/world-war-armies-rts-game/id1506931934?uo=4"
+  },
+  {
+    "file": "kura-money-icon.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/0e/04/840e048e-ec41-04a9-59ac-fd38698a8da4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "app": "Kura Money: Expense Tracker",
+    "store": "https://apps.apple.com/us/app/kura-money-expense-tracker/id6760293665?uo=4"
+  },
+  {
+    "file": "kura-money-screen.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/76/23/4d762314-cf4d-24d0-29ca-2aa55b8b2a1a/IMG_2714.png/320x480bb.jpg",
+    "app": "Kura Money: Expense Tracker",
+    "store": "https://apps.apple.com/us/app/kura-money-expense-tracker/id6760293665?uo=4"
+  },
+  {
+    "file": "aether-veil-icon.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/09/aa/1409aa4c-9391-ff15-7470-e7682021c388/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "app": "Aether Veil",
+    "store": "https://apps.apple.com/us/app/aether-veil/id6760180228?uo=4"
+  },
+  {
+    "file": "aether-veil-screen.jpg",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/9f/3d/489f3d63-52f0-b061-3358-b5b623febbc6/image1.jpeg/320x480bb.jpg",
+    "app": "Aether Veil",
+    "store": "https://apps.apple.com/us/app/aether-veil/id6760180228?uo=4"
+  }
+]
