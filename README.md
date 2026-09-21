@@ -32,3 +32,7 @@ Update content in `index.html`, styling in `style.css` and progressive animation
 ## Credits
 
 Game and app imagery belongs to the respective owners and is shown to identify portfolio projects. Image source URLs are recorded in [assets/sources.json](assets/sources.json). The portrait uses Anatoly's own photo with an AI-edited voxel background and Unity T-shirt print. All other content © 2026 Anatoly Sheshenin.
+
+### Social link preview
+
+Open Graph and X/Twitter Card metadata are rendered directly in `index.html`, so crawlers do not need JavaScript. The versioned 1200 × 630 JPEG is `assets/portfolio-social-v1.jpg`. Its code-based layout is in `scripts/build-social-card.cjs`; regenerate with Node.js and the `sharp` package (via `NODE_PATH` if needed). When replacing the image, give it a new versioned filename and update both image URLs and metadata dimensions.
