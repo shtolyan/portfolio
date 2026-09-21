@@ -2,7 +2,7 @@
 
 **Unity Developer · Gameplay · Multiplayer · Performance**
 
-[View the portfolio](https://shtolyan.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/anatoly-sheshenin-b036ab66/) · [Email](mailto:natepo4ty@gmail.com)
+[View the portfolio](https://shtolyan.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/anatoly-sheshenin-b036ab66/) · [Email](mailto:natepo4ty@gmail.com) · [Telegram](https://t.me/shtolyan) · [GitHub](https://github.com/shtolyan)
 
 I have 10+ years of software development experience, with a focus on Unity, gameplay systems, performance optimization, and player experience. Based in Hanoi, Vietnam (UTC+7).
 
