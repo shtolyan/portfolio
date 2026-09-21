@@ -3,54 +3,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#141714">
-  <title>Anatoly Sheshenin — Unity Developer & Team Lead</title>
-  <meta name="description" content="Unity developer and team lead with 10+ years in software. Selected games, VR projects, independent apps, and a focus on performance, gameplay systems, and thoughtful UX.">
-  <meta property="og:title" content="Anatoly Sheshenin — Unity Developer & Team Lead">
+  <meta name="theme-color" content="#153a2e">
+  <title>Anatoly Sheshenin — Unity Developer</title>
+  <meta name="description" content="Unity developer with 10+ years in software. Selected games, VR projects, independent apps, and a focus on performance, gameplay systems, and thoughtful UX.">
+  <meta property="og:title" content="Anatoly Sheshenin — Unity Developer">
   <meta property="og:description" content="Games, VR, and independent products. Unity engineering, performance optimization, and technical game design.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://shtolyan.github.io/portfolio/">
+  <meta property="og:image" content="https://shtolyan.github.io/portfolio/assets/anatoly-voxel.jpg">
+  <meta property="og:image:alt" content="Anatoly Sheshenin in a voxel game world, wearing a Unity T-shirt">
   <link rel="canonical" href="https://shtolyan.github.io/portfolio/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header wrap">
-    <a class="wordmark" href="#" aria-label="Anatoly Sheshenin — home"><span class="monogram">AS<span>_</span></span><span class="wordmark-name">Anatoly<br>Sheshenin</span></a>
+    <a class="wordmark" href="#" aria-label="Anatoly Sheshenin — home"><span class="monogram">AS</span><span class="wordmark-name">Anatoly<br>Sheshenin</span></a>
     <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#approach">Expertise</a><a href="#experience">Experience</a><a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></nav>
   </header>
 
   <main id="main">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="eyebrow">UNITY DEVELOPER / TEAM LEAD / TECHNICAL GAME DESIGN</div>
-      <h1 id="hero-title">Built to play.<br><span>Engineered to perform.</span></h1>
-      <div class="hero-bottom">
-        <p>I’m Anatoly. I build gameplay systems, make demanding games run better, and help teams turn ideas into playable experiences.</p>
-        <div class="hero-meta"><strong>10+ years</strong><span>in software development & leadership</span><span class="location">Da Nang, Vietnam · UTC+7</span></div>
+    <section class="hero-scene" aria-labelledby="hero-title">
+      <div class="pixel-cloud cloud-one" aria-hidden="true"></div><div class="pixel-cloud cloud-two" aria-hidden="true"></div>
+      <div class="hero wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-square" aria-hidden="true"></span> ANATOLY SHESHENIN / UNITY DEVELOPER</div>
+          <h1 id="hero-title">Built to play.<br><span>Made to run.</span></h1>
+          <p class="hero-intro">I build gameplay systems, bring interactive worlds to life, and make demanding games run better.</p>
+          <div class="hero-meta"><strong>10+ years</strong><span>of software development experience</span></div>
+          <p class="location"><span aria-hidden="true">+</span> Hanoi, Vietnam <span class="timezone">UTC+7</span></p>
+          <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <figure class="portrait-frame">
+          <div class="frame-top"><span>CREATOR PROFILE</span><span aria-hidden="true">■ ■ □</span></div>
+          <img src="assets/anatoly-voxel.jpg" alt="Anatoly Sheshenin wearing a Unity T-shirt against a three-dimensional pixel-art landscape" width="1254" height="1254" fetchpriority="high" decoding="async">
+          <figcaption><span>C# · UNITY · GAMEPLAY</span><span class="portrait-caption">Real person. Virtual worlds.</span></figcaption>
+          <span class="pixel-corner corner-a" aria-hidden="true"></span><span class="pixel-corner corner-b" aria-hidden="true"></span>
+        </figure>
       </div>
-      <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="mailto:natepo4ty@gmail.com">Get in touch <span aria-hidden="true">↗</span></a></div>
-      <div class="capability-strip" aria-label="Core skills"><span>Unity & C#</span><span>Performance</span><span>Gameplay & AI</span><span>Client & Backend</span><span>AI-assisted development</span></div>
+      <div class="world-edge" aria-hidden="true"></div>
     </section>
+    <div class="capability-bar"><div class="wrap capability-strip" aria-label="Core skills"><span>Unity & C#</span><span>Mobile · PC · WebGL · VR</span><span>Multiplayer</span><span>Performance</span><span>Gameplay AI</span></div></div>
 
     <section class="work-section wrap section" id="work" aria-labelledby="work-title">
       <div class="section-heading"><div><span class="eyebrow">01 / SELECTED WORK</span><h2 id="work-title">Games & interactive worlds</h2></div><p>My contributions across commercial games,<br class="desktop-break"> VR, and hands-on simulation.</p></div>
 
       <article class="project featured weed">
-        <div class="project-content"><div class="project-meta"><span>01</span><span>LUNKIN GAME · MOBILE</span></div><h3>Weed Empire</h3><p class="project-role">Team Lead / Unity Developer</p><p>A business strategy game built around production, progression, and managing a growing operation.</p><h4>My contribution</h4><ul><li>Gameplay architecture, feature implementation, and extensive refactoring.</li><li>CPU, GPU, and memory optimization, plus asset loading with AssetBundles and Google Play Asset Delivery.</li><li>GOAP character behavior, ad SDK integration, and technical team planning.</li><li>Contributions to quests, progression, prices, offers, and player onboarding.</li></ul><div class="tags"><span>Unity / C#</span><span>Optimization</span><span>GOAP</span><span>Game design</span></div><div class="project-links"><a href="https://apps.apple.com/us/app/weed-empire-business-strategy/id6479363149" target="_blank" rel="noopener noreferrer">App Store <span aria-hidden="true">↗</span></a><a href="https://play.google.com/store/apps/details?id=com.lunkingames.WeedEmpire" target="_blank" rel="noopener noreferrer">Google Play <span aria-hidden="true">↗</span></a></div></div>
-        <div class="project-visual weed-visual"><div class="visual-caption">PRODUCTION. PROGRESSION. PERFORMANCE.</div><img src="assets/weed-empire-screen.jpg" alt="Weed Empire: cultivation rooms and the inventory interface" width="221" height="480" fetchpriority="high"><span class="visual-footer">Official App Store screenshot</span></div>
+        <div class="project-content"><div class="project-meta"><span>01</span><span>LUNKIN GAME · MOBILE</span></div><h3>Weed Empire</h3><p class="project-role">Unity Developer</p><p>A business strategy game built around production, progression, and managing a growing operation.</p><h4>My contribution</h4><ul><li>Gameplay architecture, feature implementation, and extensive refactoring.</li><li>CPU, GPU, and memory optimization, plus asset loading with AssetBundles and Google Play Asset Delivery.</li><li>GOAP character behavior, ad SDK integration, and collaboration on technical delivery.</li><li>Contributions to quests, progression, prices, offers, and player onboarding.</li></ul><div class="tags"><span>Unity / C#</span><span>Optimization</span><span>GOAP</span><span>Game design</span></div><div class="project-links"><a href="https://apps.apple.com/us/app/weed-empire-business-strategy/id6479363149" target="_blank" rel="noopener noreferrer">App Store <span aria-hidden="true">↗</span></a><a href="https://play.google.com/store/apps/details?id=com.lunkingames.WeedEmpire" target="_blank" rel="noopener noreferrer">Google Play <span aria-hidden="true">↗</span></a></div></div>
+        <div class="project-visual weed-visual"><div class="visual-caption">PRODUCTION. PROGRESSION. PERFORMANCE.</div><img src="assets/weed-empire-screen.jpg" alt="Weed Empire: cultivation rooms and the inventory interface" width="221" height="480" loading="lazy"><span class="visual-footer">Official App Store screenshot</span></div>
       </article>
 
       <article class="project featured armies">
-        <div class="project-content"><div class="project-meta"><span>02</span><span>HYPEMASTERS · MOBILE RTS</span></div><h3>World War Armies</h3><p class="project-role">Unity Developer</p><p>A multiplayer real-time strategy game with unit-based combat and tactical decision-making.</p><h4>My contribution</h4><ul><li>Unity gameplay development and technical game design.</li><li>Contributions to combat balance, damage calculations, attack ranges, and unit parameters.</li><li>Exploration of generals, unit composition, and historically informed gameplay ideas.</li></ul><div class="tags"><span>Gameplay systems</span><span>Combat balance</span><span>Technical design</span></div><div class="project-links"><a href="https://apps.apple.com/us/app/world-war-armies-rts-game/id1506931934" target="_blank" rel="noopener noreferrer">View on App Store <span aria-hidden="true">↗</span></a></div></div>
+        <div class="project-content"><div class="project-meta"><span>02</span><span>HYPEMASTERS · MOBILE RTS</span></div><h3>World War Armies</h3><p class="project-role">Unity Developer</p><p>A multiplayer real-time strategy game with unit-based combat and tactical decision-making.</p><h4>My contribution</h4><ul><li>Unity gameplay development, Photon Quantum multiplayer, and technical game design.</li><li>Contributions to combat balance, damage calculations, attack ranges, and unit parameters.</li><li>Exploration of generals, unit composition, and historically informed gameplay ideas.</li></ul><div class="tags"><span>Photon Quantum</span><span>Combat balance</span><span>Technical design</span></div><div class="project-links"><a href="https://apps.apple.com/us/app/world-war-armies-rts-game/id1506931934" target="_blank" rel="noopener noreferrer">View on App Store <span aria-hidden="true">↗</span></a></div></div>
         <div class="project-visual armies-visual"><div class="visual-caption">TACTICS, FROM SYSTEMS TO THE SCREEN.</div><img src="assets/world-war-armies-screen.jpg" alt="World War Armies gameplay showing infantry, vehicles, and a tactical battle interface" width="405" height="228" loading="lazy"><span class="visual-footer">Official App Store screenshot</span></div>
       </article>
 
       <div class="project-grid">
-        <article class="small-project"><div class="project-meta"><span>03</span><span>VARWIN · VR</span></div><h3>VR experiences<br>& simulations</h3><p class="project-role">Unity Developer</p><p>Developed interactive applications and client demos for HTC Vive and Oculus. Worked on interaction scenarios, user feedback, and prototypes that made virtual environments intuitive to explore.</p><div class="tags"><span>VR</span><span>Interaction design</span><span>Prototyping</span></div><a class="text-link" href="https://varwin.com/en/" target="_blank" rel="noopener noreferrer">Explore Varwin <span aria-hidden="true">↗</span></a></article>
-        <article class="small-project"><div class="project-meta"><span>04</span><span>SITRONICS KT · SIMULATION</span></div><h3>Interactive<br>shooting simulator</h3><p class="project-role">Senior Lead Developer</p><p>Worked on training levels, hunting scenarios, animal behavior, hit evaluation, and scoring. Designed instructor-facing results and guided learning for aiming, reloading, and interaction.</p><div class="tags"><span>Simulation</span><span>Gameplay AI</span><span>Training UX</span></div><a class="text-link" href="https://xn--1-9sbclvecee0aslnx0j.xn--p1ai/misheni" target="_blank" rel="noopener noreferrer">View interactive programs <span aria-hidden="true">↗</span></a></article>
+        <article class="small-project"><div class="project-meta"><span>03</span><span>VARWIN · VR</span></div><h3>VR experiences<br>& simulations</h3><p class="project-role">Unity Developer</p><p>Developed VR applications and simulations for HTC Vive and Oculus. Built Photon-based shared environments for up to eight participants, with synchronized object interactions and configurable user logic.</p><div class="tags"><span>VR</span><span>Interaction design</span><span>Prototyping</span></div><a class="text-link" href="https://varwin.com/en/" target="_blank" rel="noopener noreferrer">Explore Varwin <span aria-hidden="true">↗</span></a></article>
+        <article class="small-project"><div class="project-meta"><span>04</span><span>SITRONICS KT · SIMULATION</span></div><h3>Interactive<br>shooting simulator</h3><p class="project-role">Senior Lead Developer</p><p>Developed training scenarios, animal behavior, hit evaluation, and instructor-facing results. Worked on synchronized moving targets, shots, and ballistics for remote users, with guided learning for aiming and reloading.</p><div class="tags"><span>Simulation</span><span>Gameplay AI</span><span>Training UX</span></div><a class="text-link" href="https://xn--1-9sbclvecee0aslnx0j.xn--p1ai/misheni" target="_blank" rel="noopener noreferrer">View interactive programs <span aria-hidden="true">↗</span></a></article>
         <article class="small-project"><div class="project-meta"><span>05</span><span>APEX POINT GAMES · STRATEGY</span></div><h3>Heroes at War</h3><p class="project-role">Unity Developer</p><p>Contributed to a browser and mobile strategy game, working across client and server code, game logic, graphics optimization, and delivery for Android, iOS, and WebGL.</p><div class="tags"><span>Unity / C#</span><span>Client & server</span><span>WebGL</span></div></article>
-        <article class="small-project personal"><div class="project-meta"><span>06</span><span>INDEPENDENT · IN DEVELOPMENT</span></div><h3>Hex Live</h3><p class="project-role">Developer / Game Designer</p><p>A survival and character-relationship project. I design resource systems, alliances, conflicts, and the consequences of player choices, connecting character behavior with the underlying game rules.</p><div class="tags"><span>Survival systems</span><span>Character AI</span><span>Game design</span></div></article>
+        <article class="small-project personal"><div class="project-meta"><span>06</span><span>INDEPENDENT · IN DEVELOPMENT</span></div><h3>Hex Live</h3><p class="project-role">Developer / Game Designer</p><p>A survival simulation with a headless .NET server and Unity client. I build WebSocket state updates, snapshot deltas, and movement interpolation, alongside MCP-connected LLM agents with persistent context and verified actions.</p><div class="tags"><span>WebSocket / .NET</span><span>MCP agents</span><span>Simulation</span></div></article>
       </div>
     </section>
 
@@ -63,17 +80,25 @@
     </div></section>
 
     <section class="wrap section expertise" id="approach" aria-labelledby="expertise-title"><div class="section-heading"><div><span class="eyebrow">03 / HOW I WORK</span><h2 id="expertise-title">Engineering with<br>the player in mind.</h2></div><p>Simple architecture. Intentional design.<br class="desktop-break"> Performance as part of the experience.</p></div>
-      <div class="expertise-grid"><article><span class="expertise-number">01</span><h3>Make it run better</h3><p>I enjoy finding bottlenecks, improving algorithms, and refactoring systems. My focus spans CPU, GPU, memory, loading times, and the rendering pipeline.</p><p class="tools">Profiling · Shaders · Materials · Textures · Asset delivery</p></article><article><span class="expertise-number">02</span><h3>Build the right systems</h3><p>I connect implementation with game design: progression, balance, quests, onboarding, and character behavior. I work across client and backend code with SOLID and KISS as practical guides.</p><p class="tools">Unity · C# · Go · GOAP · Game economy · UX</p></article><article><span class="expertise-number">03</span><h3>Help the team deliver</h3><p>I define technical tasks, plan with the team, and run retrospectives. I use AI for prototyping, implementation, and refactoring, with code review and testing as part of delivery.</p><p class="tools">Technical leadership · Planning · AI-assisted development</p></article></div>
-      <div class="toolbox"><span class="eyebrow">ALSO IN MY TOOLBOX</span><p>Amplitude · Firebase · Unity Analytics · Git · Advertising SDKs · Animation · Blender & Maya basics</p></div>
+      <div class="expertise-grid">
+        <article><span class="expertise-number">01 / PERFORMANCE</span><h3>Make it run better</h3><p>Find bottlenecks, improve algorithms, and refactor systems. Keep CPU, GPU, memory, asset loading, and frame-rate stability in view.</p><p class="tools">Profiling · Shaders · Rendering · AssetBundles · Google Play Asset Delivery</p></article>
+        <article><span class="expertise-number">02 / CONNECTED WORLDS</span><h3>Keep everyone in sync</h3><p>Connect Unity clients to servers, synchronize shared state, and build reliable interactions across games and simulations.</p><p class="tools">Photon Quantum / Fusion · WebSocket · REST APIs · C# / .NET</p></article>
+        <article><span class="expertise-number">03 / INTELLIGENT SYSTEMS</span><h3>Give characters purpose</h3><p>Build gameplay AI and LLM agent systems. Use specifications, code review, and tests to make AI-assisted development dependable.</p><p class="tools">GOAP · FSM · A* · MCP · LLM agents · Codex / Claude</p></article>
+      </div>
+      <div class="toolbox"><span class="eyebrow">THE REST OF THE INVENTORY</span><div class="toolbox-groups">
+        <p><strong>Architecture & UI</strong> SOLID · KISS · MVC / MVP · VContainer / Zenject · uGUI · Animation</p>
+        <p><strong>Fullstack</strong> Python · TypeScript · ASP.NET Core · Fastify · PostgreSQL · SQL · Redis</p>
+        <p><strong>Delivery & analytics</strong> Git · Docker · CI/CD · Tests · Firebase · Amplitude · Unity Analytics</p>
+      </div></div>
     </section>
 
     <section class="wrap section experience" id="experience" aria-labelledby="experience-title"><div class="section-heading"><div><span class="eyebrow">04 / EXPERIENCE</span><h2 id="experience-title">A foundation in software.<br>A focus on games.</h2></div><a class="text-link" href="https://www.linkedin.com/in/anatoly-sheshenin-b036ab66/" target="_blank" rel="noopener noreferrer">Full background on LinkedIn <span aria-hidden="true">↗</span></a></div>
-      <div class="timeline"><div class="timeline-row"><span class="date">Nov 2022 — Present</span><h3>Lunkin Game</h3><span>Team Lead / Unity Developer</span></div><div class="timeline-row"><span class="date">Feb — Oct 2022</span><h3>Royal Ark</h3><span>Unity Developer</span></div><div class="timeline-row"><span class="date">Jul 2021 — Jan 2022</span><h3>Sitronics KT</h3><span>Senior Lead Developer</span></div><div class="timeline-row"><span class="date">Jun 2020 — Jul 2021</span><h3>Hypemasters</h3><span>Unity Developer</span></div><div class="timeline-row"><span class="date">Jan 2018 — Jun 2020</span><h3>Varwin</h3><span>Unity Developer</span></div><div class="timeline-row"><span class="date">Dec 2016 — Dec 2017</span><h3>Apex Point Games</h3><span>Unity Developer</span></div></div>
+      <div class="timeline"><div class="timeline-row"><span class="date">Nov 2022 — Present</span><h3>Lunkin Game</h3><span>Unity Developer · Team leadership</span></div><div class="timeline-row"><span class="date">Feb — Oct 2022</span><h3>Royal Ark</h3><span>Unity Developer</span></div><div class="timeline-row"><span class="date">Jul 2021 — Jan 2022</span><h3>Sitronics KT</h3><span>Senior Lead Developer</span></div><div class="timeline-row"><span class="date">Jun 2020 — Jul 2021</span><h3>Hypemasters</h3><span>Unity Developer</span></div><div class="timeline-row"><span class="date">Jan 2018 — Jun 2020</span><h3>Varwin</h3><span>Unity Developer</span></div><div class="timeline-row"><span class="date">Dec 2016 — Dec 2017</span><h3>Apex Point Games</h3><span>Unity Developer</span></div></div>
       <div class="earlier"><div><h3>Before games</h3><p>IT leadership at Garant Osago, C# development at BaltBet, and IT engineering at KURIER MEDIA. Experience with business software, databases, and server infrastructure.</p></div><div><h3>Education</h3><p>Bachelor’s degree, Computer Software & Automated Systems<br>Bonch-Bruevich Saint Petersburg State University of Telecommunications · 2004–2009</p></div></div>
     </section>
 
     <section class="contact" id="contact" aria-labelledby="contact-title"><div class="wrap"><span class="eyebrow">05 / NEXT CHAPTER</span><h2 id="contact-title">Have something<br>worth building?</h2><div class="contact-bottom"><p>Let’s talk about gameplay, performance,<br class="desktop-break"> or your next interactive product.</p><a class="button dark" href="mailto:natepo4ty@gmail.com">natepo4ty@gmail.com <span aria-hidden="true">↗</span></a></div></div></section>
   </main>
-  <footer class="wrap"><span>© 2026 Anatoly Sheshenin</span><div><a href="https://www.linkedin.com/in/anatoly-sheshenin-b036ab66/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/shtolyan/portfolio" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#">Back to top ↑</a></div><small>Game and app imagery belongs to the respective owners. Commercial projects reflect my contributions as part of their teams.</small></footer>
+  <footer class="wrap"><span>© 2026 Anatoly Sheshenin · Hanoi, Vietnam</span><div><a href="https://www.linkedin.com/in/anatoly-sheshenin-b036ab66/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/shtolyan/portfolio" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#">Back to top ↑</a></div><small>Game and app imagery belongs to the respective owners. Commercial projects reflect my contributions as part of their teams.</small></footer>
 </body>
 </html>
