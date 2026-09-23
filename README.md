@@ -10,7 +10,7 @@ I have 10+ years of software development experience, with a focus on Unity, game
 
 | Project | My role / contribution | Links |
 | --- | --- | --- |
-| Weed Empire — Lunkin Game | Team Lead / Unity Developer. Gameplay, optimization, asset delivery, GOAP, and contributions to progression and onboarding. | [App Store](https://apps.apple.com/us/app/weed-empire-business-strategy/id6479363149) · [Google Play](https://play.google.com/store/apps/details?id=com.lunkingames.WeedEmpire) |
+| Gentlemen: Business Strategy — Lunkin Game | Team Lead / Unity Developer. Gameplay, optimization, asset delivery, GOAP, and contributions to progression and onboarding. | [App Store](https://apps.apple.com/us/app/weed-empire-business-strategy/id6479363149) · [Google Play](https://play.google.com/store/apps/details?id=com.gentlemans.game) |
 | World War Armies — Hypemasters | Unity development, technical game design, and contributions to combat balance. | [App Store](https://apps.apple.com/us/app/world-war-armies-rts-game/id1506931934) |
 | VR experiences — Varwin | Interactive applications, client demos, and simulations for HTC Vive and Oculus. | [Varwin](https://varwin.com/en/) |
 | Shooting simulator — Sitronics KT | Training scenarios, character behavior, scoring, hit evaluation, and instructor UX. | [Interactive programs](https://xn--1-9sbclvecee0aslnx0j.xn--p1ai/misheni) |
