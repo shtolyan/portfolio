@@ -35,4 +35,4 @@ Game and app imagery belongs to the respective owners and is shown to identify p
 
 ### Social link preview
 
-Open Graph and X/Twitter Card metadata are rendered directly in `index.html`, so crawlers do not need JavaScript. The versioned 1200 × 630 JPEG is `assets/portfolio-social-v1.jpg`. Its code-based layout is in `scripts/build-social-card.cjs`; regenerate with Node.js and the `sharp` package (via `NODE_PATH` if needed). When replacing the image, give it a new versioned filename and update both image URLs and metadata dimensions.
+Open Graph and X/Twitter Card metadata are rendered directly in `index.html`, so crawlers do not need JavaScript. The versioned 1200 × 630 JPEG is `assets/portfolio-social-v2.jpg`. Its code-based layout is in `scripts/build-social-card.cjs`; regenerate with Node.js and the `sharp` package (via `NODE_PATH` if needed). When replacing the image, give it a new versioned filename and update both image URLs and metadata dimensions.

@@ -19,11 +19,11 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.
 <rect x="64" y="64" width="12" height="12" fill="#c4ee85"/>
 <text x="92" y="77" fill="#dce8d4" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">GAME DEVELOPMENT PORTFOLIO</text>
 <g fill="#c4ee85">${pixel('ANATOLY',64,132,6)}${pixel('SHESHENIN',64,194,6)}</g>
-<text x="64" y="301" fill="#fffef6" font-family="Arial, sans-serif" font-size="44" font-weight="bold">Unity Developer</text>
+<text x="64" y="301" fill="#fffef6" font-family="Arial, sans-serif" font-size="44" font-weight="bold">Senior Unity Developer</text>
 <text x="64" y="355" fill="#dce8d4" font-family="Arial, sans-serif" font-size="27">Built to play. Made to run.</text>
 <rect x="64" y="390" width="550" height="1" fill="#46634f"/>
-<text x="64" y="432" fill="#c4ee85" font-family="Arial, sans-serif" font-size="21">Gameplay · Multiplayer · Performance</text>
-<text x="64" y="470" fill="#dce8d4" font-family="Arial, sans-serif" font-size="20">10+ years in software development</text>
+<text x="64" y="432" fill="#c4ee85" font-family="Arial, sans-serif" font-size="21">Game AI · Multiplayer · Performance · Team Lead</text>
+<text x="64" y="470" fill="#dce8d4" font-family="Arial, sans-serif" font-size="20">15 → 60 FPS · 10M+ downloads · ~10 years in games</text>
 <rect x="730" y="92" width="414" height="442" fill="#0d251d"/>
 <rect x="718" y="80" width="414" height="442" fill="#c4ee85"/>
 <rect x="725" y="113" width="400" height="400" fill="#e8efda"/>
@@ -34,4 +34,4 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.
 <text x="64" y="560" font-family="Arial, sans-serif" font-size="19" fill="#dce8d4">shtolyan.github.io/portfolio</text>
 <text x="1129" y="560" text-anchor="end" font-family="Arial, sans-serif" font-size="17" fill="#dce8d4">MOBILE / PC / WEBGL / VR</text>
 ${ground}</svg>`;
-sharp(Buffer.from(svg)).jpeg({quality:90,mozjpeg:true}).toFile(path.join(root,'assets/portfolio-social-v1.jpg')).then(info=>console.log(info));
+sharp(Buffer.from(svg)).jpeg({quality:90,mozjpeg:true}).toFile(path.join(root,'assets/portfolio-social-v2.jpg')).then(info=>console.log(info));
