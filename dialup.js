@@ -50,11 +50,11 @@
       if (y >= H) { finish(); return; }
       // Mostly small chunks, sometimes a burst, sometimes a stall — like a real modem.
       const burst = Math.random() < 0.15;
-      const h = Math.min(H - y, Math.round((burst ? rand(30, 70) : rand(6, 18)) * dpr));
+      const h = Math.min(H - y, Math.round((burst ? rand(24, 56) : rand(5, 14)) * dpr));
       drawGlitch(y, h);
       prev = [y, h];
       y += h;
-      const pause = Math.random() < 0.08 ? rand(150, 300) : rand(25, 60);
+      const pause = Math.random() < 0.08 ? rand(180, 340) : rand(30, 70);
       setTimeout(() => requestAnimationFrame(step), pause);
     }
     step();

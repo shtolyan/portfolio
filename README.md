@@ -29,6 +29,10 @@ To preview locally, run `python3 -m http.server 8000` in this directory and open
 
 Update content in `index.html`, styling in `style.css` and progressive animations in `script.js`.
 
+### Languages
+
+The site is available in English, Russian and Vietnamese. English lives in `index.html`; every translatable element carries a `data-i18n` key (images use `data-i18n-alt`), and `i18n.js` holds the Russian and Vietnamese text for those keys. When you change English copy, update the matching keys in `i18n.js` too. The language is picked from `?lang=en|ru|vi`, then the visitor's saved choice, then their time zone (Russia, Belarus, Ukraine → Russian; Vietnam → Vietnamese), then browser language, falling back to English. There is no IP lookup and no network request.
+
 ## Credits
 
 Game and app imagery belongs to the respective owners and is shown to identify portfolio projects. Image source URLs are recorded in [assets/sources.json](assets/sources.json). The portrait uses Anatoly's own photo with an AI-edited voxel background and Unity T-shirt print. All other content © 2026 Anatoly Sheshenin.
